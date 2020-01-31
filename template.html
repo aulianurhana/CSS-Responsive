@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      *{
+        box-sizing: border-box;
+      }
+      [class*="col-"] {float: left; padding: 15px; width:100%;
+       }
+       .header{
+         background: url("logo.png") #5e0001 no-repeat center;
+         background-size: 100px 100px;
+         height: 200px;
+       }
+       @media only screen and (min-width: 600px){
+         /* for tables: */
+         .col-s-1 (width: 8.33%;)
+         .col-s-2 (width: 16.66%;)
+         .col-s-3 (width: 25%;)
+         .col-s-4 (width: 33.33%;)
+         .col-s-5 (width: 41.66%;)
+         .col-s-6 (width: 50%;)
+         .col-s-7 (width: 58.33%;)
+         .col-s-8 (width: 66.66%;)
+         .col-s-9 (width: 75%;)
+         .col-s-10 (width: 83.33%;)
+         .col-s-11 (width: 91.66%;)
+         .col-s-12 (width: 100%;)
+         .header{
+           background: url("logo.png") #5e0001 no-repeat center;
+           height: 200px;
+         }
+       }
+       @media only screen and(min-width: 768px){
+         /* for dekstop: */
+         .col-s-1 (width: 8.33%;)
+         .col-s-2 (width: 16.66%;)
+         .col-s-3 (width: 25%;)
+         .col-s-4 (width: 33.33%;)
+         .col-s-5 (width: 41.66%;)
+         .col-s-6 (width: 50%;)
+         .col-s-7 (width: 58.33%;)
+         .col-s-8 (width: 66.66%;)
+         .col-s-9 (width: 75%;)
+         .col-s-10 (width: 83.33%;)
+         .col-s-11 (width: 91.66%;)
+         .col-s-12 (width: 100%;)
+         .header{
+           background: url("logo.png") #5e0001 no-repeat center;
+           height: 200px;
+         }
+       }
+       .container{
+         width: 80%;
+         margin:0 auto;
+       }
+
+       .sidebar ul{
+         life-style-type:none;
+         padding: 0;
+         margin:0;
+         overflow: hidden;
+         background: red;
+       }
+
+       .sidebar ul li{
+         float:left;
+         width: 100%;
+         border-bottom: 2px solid #5e0001;
+       }
+
+       .sidebar ul li a{
+         display: block;
+         text-decoration: none;
+         color: #fff;
+         padding: 15px;
+         text-align: left;
+       }
+       .content{ text-align: justify;}
+       .footer{
+         background: #5e0001;
+         color: #fff;
+       }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-12 header">
+      </div>
+      <div class="col-3 col-s-5 sidebar">
+        <ul>
+          <li> <a href="#">beranda</a> </li>
+          <li> <a href="#">profil</a> </li>
+          <li> <a href="#">kontak kami</a> </li>
+        </ul>
+      </div>
+      <div class="col-9 col-s-7 content">
+        <p>
+          Di masa lalu di sebuah desa nelayan di Pantai Air Manis  Padang, Sumatra Barat, hidup seorang janda bernama Mande Rubayah bersama putranya, Malin Kundang. Mande Rubayah sangat sayang dan selalu memanjakan Malin Kundang. Malin adalah anak yang rajin dan patuh.
+          Mande Rubayah adalah seorang wanita lanjut usia, yang hanya dapat bekerja sebagai penjual kue untuk memenuhi kebutuhan dirinya dan anak laki-laki satu-satunya.
+          Suatu hari, Malin jatuh sakit. Rasa sakitnya sangat keras, hidupnya hampir mati tetapi pada akhirnya dia bisa diselamatkan, berkat kerja keras ibunya.
+          Setelah sembuh dari penyakitnya, ia semakin dicintai. Mereka adalah ibu dan anak yang saling mencintai. Sekarang, Malin sudah dewasa, dia meminta izin ibunya untuk pergi ke luar kota, karena pada saat itu ada kapal besar yang merapat di Pantai Air Manis.
+        </p>
+      </div>
+      <div class="col-12 footer">
+        &copy; copyright by Aull
+      </div>
+
+    </div>
+
+  </body>
+</html>
